@@ -61,7 +61,7 @@ geojson = {
 }
 
 # ファイル出力
-filename =  JSON_DIR + "stops.json"
+filename =  JSON_DIR + "stops.geojson"
 with open(filename, "w") as file:
     json.dump(geojson, file, ensure_ascii=False)
     print(f"[save as {filename}]")
@@ -137,8 +137,44 @@ geojson = {
 }
 
 # ファイル出力
-filename =  JSON_DIR + "routes.json"
+filename =  JSON_DIR + "routes.geojson"
 with open(filename, "w") as file:
     json.dump(geojson, file, ensure_ascii=False)
     print(f"[save as {filename}]")
 #--------------------------------------------------    
+
+#--------------------------------------------------
+# 時刻表の処理
+
+timetable_list = {}
+
+for key in trip_dic.keys():
+
+    trip = trip_dic[key]       
+
+    coordinates = []
+    for stop_id, stop_sequence in zip(trip["stop_id"], trip["stop_sequence"]):
+        stop_name = stop_dict[stop_id]["properties"]["stop_name"]
+        stop_sequence = int(stop_sequence) - 1
+
+        if(stop_id in timetable_list):
+            timetable_list[stop_id]["trip_id"].append(trip["trip_id"])
+            timetable_list[stop_id]["stop_headsign"].append(trip["stop_headsign"])
+            timetable_list[stop_id]["arrival_time"].append(trip["arrival_time"][stop_sequence])
+            timetable_list[stop_id]["departure_time"].append(trip["departure_time"][stop_sequence])
+        else:            
+            timetable_list[stop_id] = {
+                "stop_id": stop_id,
+                "stop_name": stop_name,
+                "trip_id": [trip["trip_id"]],
+                "stop_headsign": [trip["stop_headsign"]],
+                "arrival_time": [trip["arrival_time"][stop_sequence]],
+                "departure_time": [trip["departure_time"][stop_sequence]],
+            }
+
+# ファイル出力
+filename =  JSON_DIR + "timetable.json"
+with open(filename, "w") as file:
+    json.dump(timetable_list, file, ensure_ascii=False)
+    print(f"[save as {filename}]")
+#--------------------------------------------------
