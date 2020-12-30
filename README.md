@@ -1,6 +1,6 @@
 # GTFSConverter
 
-任意のZIP圧縮されたGTFSファイルを，バス停(stops.geojson)，経路(routes.geojson)，時刻表(timetable.json)を表すJSONファイルに変換します．バス停と経路は[GeoJSON](https://geojson.org/)に従い，それぞれ **Point** と **LineString** で表されます．
+任意のZIP圧縮されたGTFSファイルを，バス停(stops.geojson)，経路(routes.geojson)，時刻表(timetable.json)を表すJSONファイルに変換します．バス停と経路は[GeoJSON](https://geojson.org/)フォーマットに従い，それぞれ **Point** と **LineString** で表されます．一方，時刻表は独自のフォーマットです．
 
 ## 使い方
 
