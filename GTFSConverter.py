@@ -6,13 +6,13 @@ import json
 # 引数の処理
 parser = argparse.ArgumentParser(description="GTFS(ZIPファイル)をGeoJSONに変換")
 parser.add_argument("--gtfs", default="./gtfs/nakatsugawa_GTFS.zip", help="gtfs file (zip file)")
-parser.add_argument("--tmp", default="./tmp", help="directory for unzipped files")
-parser.add_argument("--json", default="./json/nakatsugawa_GTFS.json", help="output geojson file")
+parser.add_argument("--tmp_dir", default="./tmp/", help="directory for unzipped files")
+parser.add_argument("--json_dir", default="./json/", help="output geojson file")
 args = parser.parse_args()
 
 GTFS_FILE = args.gtfs
-TMP_DIR = args.tmp
-JSON_FILE = args.json
+TMP_DIR = args.tmp_dir
+JSON_DIR = args.json_dir
 
 # ZIPファイルの展開
 zip_file = zipfile.ZipFile(GTFS_FILE)
@@ -28,19 +28,21 @@ translations_file = zip_file.extract("translations.txt", TMP_DIR)
 trips_file = zip_file.extract("trips.txt", TMP_DIR)
 agency_file = zip_file.extract("agency.txt", TMP_DIR)
 
+#--------------------------------------------------
 # バス停データの処理
+
 stops_csv = pd.read_csv(stops_file)
 
-stop_list = []
+stop_dict = {}
 
 for index, record in stops_csv.iterrows():
     stop_id = record["stop_id"]
     stop_name = record["stop_name"]
     stop_lat = record["stop_lat"]
     stop_lon = record["stop_lon"]
-    print(f"{stop_id} {stop_name} {stop_lat} {stop_lon}")
+    #print(f"{stop_id} {stop_name} {stop_lat} {stop_lon}")
 
-    stop = {
+    stop_dict[stop_id] = {
         "type": "Feature",
         "geometry": {
             "type": "Point",
@@ -52,14 +54,53 @@ for index, record in stops_csv.iterrows():
         }
     }
 
-    stop_list.append(stop)
-
 # GeoJSONの生成
 geojson = {
     "type": "FeatureCollection",
-    "features": stop_list
+    "features": list(stop_dict.values())
 }
-    
-with open(JSON_FILE, "w") as file:
+
+# ファイル出力
+filename =  JSON_DIR + "stops.json"
+with open(filename, "w") as file:
     json.dump(geojson, file, ensure_ascii=False)
-    print(f"[save as {JSON_FILE}]")    
+    print(f"[save as {filename}]")
+#--------------------------------------------------
+
+#--------------------------------------------------
+# 経路データの処理
+
+trips_csv = pd.read_csv(stop_times_file)
+
+trip_dic = {}
+
+# データを辞書に格納
+for index, record in trips_csv.iterrows():
+    trip_id = record["trip_id"]
+    arrival_time = record["arrival_time"]
+    departure_time = record["departure_time"]
+    stop_id = record["stop_id"]
+    stop_sequence = int(record["stop_sequence"])
+    stop_headsign = record["stop_headsign"]
+    #print(f"{trip_id} {arrival_time} {departure_time} {stop_id} {stop_sequence} {stop_headsign}")
+
+    if(not(trip_id in trip_dic)):
+        trip_dic[trip_id] = {
+            "trip_id": trip_id,
+            "stop_headsign": stop_headsign,
+            "arrival_time": [arrival_time],
+            "departure_time": [departure_time],
+            "stop_id": [stop_id],
+            "stop_sequence": [stop_sequence]
+        }
+    else:
+        trip_dic[trip_id]["arrival_time"].append(arrival_time)
+        trip_dic[trip_id]["departure_time"].append(departure_time)
+        trip_dic[trip_id]["stop_id"].append(stop_id)
+        trip_dic[trip_id]["stop_sequence"].append(stop_sequence)
+
+# 経路データの生成
+for key in trip_dic.keys():
+    print(key)
+        
+#--------------------------------------------------    
