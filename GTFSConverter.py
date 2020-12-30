@@ -100,7 +100,45 @@ for index, record in trips_csv.iterrows():
         trip_dic[trip_id]["stop_sequence"].append(stop_sequence)
 
 # 経路データの生成
+
+route_dic = {}
+
 for key in trip_dic.keys():
-    print(key)
-        
+
+    trip = trip_dic[key]       
+
+    coordinates = []
+    for stop_id in trip["stop_id"]:
+        latlng = stop_dict[stop_id]["geometry"]["coordinates"]
+        coordinates.append(latlng)
+    
+    route = {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": coordinates
+        },
+        "properties": {
+            "trip_id": trip["trip_id"],
+            "stop_headsign": trip["stop_headsign"],
+            "arrival_time": trip["arrival_time"],
+            "departure_time": trip["departure_time"],
+            "stop_id": trip["stop_id"],
+            "stop_sequence": trip["stop_sequence"]
+        }
+    }
+
+    route_dic[trip["trip_id"]] = route
+
+# GeoJSONの生成
+geojson = {
+    "type": "FeatureCollection",
+    "features": list(route_dic.values())
+}
+
+# ファイル出力
+filename =  JSON_DIR + "routes.json"
+with open(filename, "w") as file:
+    json.dump(geojson, file, ensure_ascii=False)
+    print(f"[save as {filename}]")
 #--------------------------------------------------    
