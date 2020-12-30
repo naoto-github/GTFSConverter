@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+中津川市,http://www.city.nakatsugawa.gifu.jp/page/051067.html,ja,20201001,20210331,2020/10/01改正

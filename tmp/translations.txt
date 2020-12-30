@@ -1,0 +1,1218 @@
+trans_id,lang,translation
+中津川市,ja,中津川市
+中津川市,ja-Hrkt,なかつがわし
+中津川市,en,Nakatsugawa City
+１１号区公会堂,ja,１１号区公会堂
+１１号区公会堂,ja-Hrkt,じゅういちごうくこうかいどう
+１１号区公会堂,en,Jyuichigouku koukaido
+４－１詰所,ja,４－１詰所
+４－１詰所,ja-Hrkt,よんのいちつめしょ
+４－１詰所,en,younoichi tsumesho
+５号区クラブ,ja,５号区クラブ
+５号区クラブ,ja-Hrkt,ごごうくくらぶ
+５号区クラブ,en,Gogouku kurabu
+６号区公会堂,ja,６号区公会堂
+６号区公会堂,ja-Hrkt,ろくごうくこうかいどう
+６号区公会堂,en,Rokugouku koukaido
+８号区公会堂,ja,８号区公会堂
+８号区公会堂,ja-Hrkt,はちごうくこうかいどう
+８号区公会堂,en,Hachigouku kokaido
+９区集会所,ja,９区集会所
+９区集会所,ja-Hrkt,きゅうくしゅうかいじょ
+９区集会所,en,Kyuku shukaijo
+JA付知支店,ja,JA付知支店
+JA付知支店,ja-Hrkt,じぇいえいつけちしてん
+JA付知支店,en,JA Tsukechishiten
+JA加子母支店,ja,JA加子母支店
+JA加子母支店,ja-Hrkt,じぇいえいかしもしてん
+JA加子母支店,en,JA Kashimoshiten
+JA大門支店,ja,JA大門支店
+JA大門支店,ja-Hrkt,じぇいえいだいもんしてん
+JA大門支店,en,JA Daimonshiten
+JA落合支店,ja,JA落合支店
+JA落合支店,ja-Hrkt,じぇいえいおちあいしてん
+JA落合支店,en,JA Ochiaishiten
+JA蛭川支店,ja,JA蛭川支店
+JA蛭川支店,ja-Hrkt,じぇいえいひるかわしてん
+JA蛭川支店,en,JA Hirukawashiten
+JA阿木支店,ja,JA阿木支店
+JA阿木支店,ja-Hrkt,じぇいえいあぎしてん
+JA阿木支店,en,JA Agishiten
+JR陸橋,ja,JR陸橋
+JR陸橋,ja-Hrkt,じぇいあーるりっきょう
+JR陸橋,en,JR Rikkyo
+アトラ,ja,アトラ
+アトラ,ja-Hrkt,あとら
+アトラ,en,Atora
+あらた,ja,あらた
+あらた,ja-Hrkt,あらた
+あらた,en,Arata
+いわくら,ja,いわくら
+いわくら,ja-Hrkt,いわくら
+いわくら,en,Iwakura
+お不動様,ja,お不動様
+お不動様,ja-Hrkt,おふどうさま
+お不動様,en,Ofudousama
+かやの木,ja,かやの木
+かやの木,ja-Hrkt,かやのき
+かやの木,en,Kayanoki
+げんねしばら,ja,げんねしばら
+げんねしばら,ja-Hrkt,げんねしばら
+げんねしばら,en,Gen-neshibara
+さのや,ja,さのや
+さのや,ja-Hrkt,さのや
+さのや,en,Sanoya
+シクラメン,ja,シクラメン
+シクラメン,ja-Hrkt,しくらめん
+シクラメン,en,Shikuramen
+スクールバス発着所,ja,スクールバス発着所
+スクールバス発着所,ja-Hrkt,すくーるばすはっちゃくじょ
+スクールバス発着所,en,School bus hacchakujo
+つげ石材,ja,つげ石材
+つげ石材,ja-Hrkt,つげせきざい
+つげ石材,en,Tsuge sekizai
+てんりょう,ja,てんりょう
+てんりょう,ja-Hrkt,てんりょう
+てんりょう,en,Tenryo
+どうだぶち,ja,どうだぶち
+どうだぶち,ja-Hrkt,どうだぶち
+どうだぶち,en,Doudabuchi
+ひょうたん山前,ja,ひょうたん山前
+ひょうたん山前,ja-Hrkt,ひょうたんやままえ
+ひょうたん山前,en,Hyotan-yama-mae
+ふれあい広場,ja,ふれあい広場
+ふれあい広場,ja-Hrkt,ふれあいひろば
+ふれあい広場,en,Hureai hiroba
+プレカット,ja,プレカット
+プレカット,ja-Hrkt,ぷれかっと
+プレカット,en,Purekatto
+ふんどし岩,ja,ふんどし岩
+ふんどし岩,ja-Hrkt,ふんどしいわ
+ふんどし岩,en,Fundoshiiwa
+ます池,ja,ます池
+ます池,ja-Hrkt,ますいけ
+ます池,en,Masuike
+みお医院,ja,みお医院
+みお医院,ja-Hrkt,みおいいん
+みお医院,en,Mio iin
+みはらし台辻,ja,みはらし台辻
+みはらし台辻,ja-Hrkt,みはらしだいつじ
+みはらし台辻,en,Miharashidai tsuji
+みはらし台運動公園,ja,みはらし台運動公園
+みはらし台運動公園,ja-Hrkt,みはらしだいうんどうこうえん
+みはらし台運動公園,en,Miharashidai undo koen
+やすらぎ荘前,ja,やすらぎ荘前
+やすらぎ荘前,ja-Hrkt,やすらぎそうまえ
+やすらぎ荘前,en,Yasuragisou-mae
+ライスセンター,ja,ライスセンター
+ライスセンター,ja-Hrkt,らいすせんたー
+ライスセンター,en,Rice Center
+一之瀬東班口,ja,一之瀬東班口
+一之瀬東班口,ja-Hrkt,いちのせひがしはんぐち
+一之瀬東班口,en,Ichinose higashihan guchi
+一色公民館,ja,一色公民館
+一色公民館,ja-Hrkt,いっしきこうみんかん
+一色公民館,en,Isshiki kouminkan
+一谷那木,ja,一谷那木
+一谷那木,ja-Hrkt,いちやなぎ
+一谷那木,en,Ichiyanagi
+万松軒,ja,万松軒
+万松軒,ja-Hrkt,ばんしょうけん
+万松軒,en,Banshoken
+万賀の辻,ja,万賀の辻
+万賀の辻,ja-Hrkt,まんがのつじ
+万賀の辻,en,Manga no tsuji
+三五沢上,ja,三五沢上
+三五沢上,ja-Hrkt,さんごさわうえ
+三五沢上,en,Sangosawa-ue
+三屋前,ja,三屋前
+三屋前,ja-Hrkt,みつやまえ
+三屋前,en,Mitsuya-mae
+上ノ山浄水場下,ja,上ノ山浄水場下
+上ノ山浄水場下,ja-Hrkt,うえのやまじょうすいじょうした
+上ノ山浄水場下,en,Uenoyama josuijo
+上与坂,ja,上与坂
+上与坂,ja-Hrkt,かみよさか
+上与坂,en,Kamiyosaka
+上与坂大橋,ja,上与坂大橋
+上与坂大橋,ja-Hrkt,かみよさかおおはし
+上与坂大橋,en,Kamiyosaka ohashi
+上之平,ja,上之平
+上之平,ja-Hrkt,うえのたいら
+上之平,en,Uenotaira
+上之平堤下,ja,上之平堤下
+上之平堤下,ja-Hrkt,うえのたいらつつみした
+上之平堤下,en,Uenotaida tsutsumi-shita
+上外,ja,上外
+上外,ja-Hrkt,かみそで
+上外,en,Kamisode
+上大起,ja,上大起
+上大起,ja-Hrkt,かみおごせ
+上大起,en,Kamiogose
+上握,ja,上握
+上握,ja-Hrkt,かみにぎり
+上握,en,Kaminigiri
+上海戸,ja,上海戸
+上海戸,ja-Hrkt,うえがいと
+上海戸,en,Uegaito
+上真原,ja,上真原
+上真原,ja-Hrkt,かみさなわら
+上真原,en,Kamisanawara
+上砂護地谷,ja,上砂護地谷
+上砂護地谷,ja-Hrkt,かみしゃごじだに
+上砂護地谷,en,Kamishagojidani
+上野口,ja,上野口
+上野口,ja-Hrkt,うえのぐち
+上野口,en,Uenoguchi
+上鐘入口,ja,上鐘入口
+上鐘入口,ja-Hrkt,うえがねいりぐち
+上鐘入口,en,Uegane iriguchi
+上鐘出口,ja,上鐘出口
+上鐘出口,ja-Hrkt,うえがねでぐち
+上鐘出口,en,Uegane deguchi
+下外公会堂,ja,下外公会堂
+下外公会堂,ja-Hrkt,しもそでこうかいどう
+下外公会堂,en,Shimosode koukaido
+下小野沢,ja,下小野沢
+下小野沢,ja-Hrkt,しもおのさわ
+下小野沢,en,Shimo onosawa
+下山野田,ja,下山野田
+下山野田,ja-Hrkt,しもやまのた
+下山野田,en,Shimo yamanota
+下島（加子母）,ja,下島（加子母）
+下島（加子母）,ja-Hrkt,しもじま
+下島（加子母）,en,Shimojima
+下島（坂下）,ja,下島（坂下）
+下島（坂下）,ja-Hrkt,したじま
+下島（坂下）,en,Shitajima
+下広岡燈籠場,ja,下広岡燈籠場
+下広岡燈籠場,ja-Hrkt,しもひろおかとうろうば
+下広岡燈籠場,en,Shimo hirooka tourouba
+下握,ja,下握
+下握,ja-Hrkt,しもにぎり
+下握,en,Shimonigiri
+下浦,ja,下浦
+下浦,ja-Hrkt,しもうれ
+下浦,en,Shimoure
+下浦集会所,ja,下浦集会所
+下浦集会所,ja-Hrkt,しもうれしゅうかいじょ
+下浦集会所,en,Shimoure shukaijo
+下羽根,ja,下羽根
+下羽根,ja-Hrkt,しもはね
+下羽根,en,Shimohane
+下落合,ja,下落合
+下落合,ja-Hrkt,しもおちあい
+下落合,en,Shimo ochiai
+下野口,ja,下野口
+下野口,ja-Hrkt,しものぐち
+下野口,en,Shimonoguchi
+両伝寺,ja,両伝寺
+両伝寺,ja-Hrkt,りょうでんじ
+両伝寺,en,ryodenji
+中上一,ja,中上一
+中上一,ja-Hrkt,なかがみいち
+中上一,en,Nakagami ichi
+中上二,ja,中上二
+中上二,ja-Hrkt,なかがみに
+中上二,en,Nakagami ni
+中之垣外,ja,中之垣外
+中之垣外,ja-Hrkt,なかのがいと
+中之垣外,en,Nakanogaito
+中原,ja,中原
+中原,ja-Hrkt,なかはら
+中原,en,Nakahara
+中外公会堂,ja,中外公会堂
+中外公会堂,ja-Hrkt,なかそでこうかいどう
+中外公会堂,en,Nakasode koukaido
+中学校前,ja,中学校前
+中学校前,ja-Hrkt,ちゅうがっこうまえ
+中学校前,en,Chugakko-mae
+中尾,ja,中尾
+中尾,ja-Hrkt,なかお
+中尾,en,Nakao
+中屋,ja,中屋
+中屋,ja-Hrkt,なかや
+中屋,en,Nakaya
+中島,ja,中島
+中島,ja-Hrkt,なかしま
+中島,en,Nakashima
+中川医院,ja,中川医院
+中川医院,ja-Hrkt,なかがわいいん
+中川医院,en,Nakagawa iin
+中田集会所,ja,中田集会所
+中田集会所,ja-Hrkt,なかたしゅうかいじょ
+中田集会所,en,Nakata shukaijo
+中組,ja,中組
+中組,ja-Hrkt,なかぐみ
+中組,en,Nakagumi
+中野,ja,中野
+中野,ja-Hrkt,なかの
+中野,en,Nakano
+丸山バス停,ja,丸山バス停
+丸山バス停,ja-Hrkt,まるやまばすてい
+丸山バス停,en,Maruyama basutei
+久須田クラブ,ja,久須田クラブ
+久須田クラブ,ja-Hrkt,くすだくらぶ
+久須田クラブ,en,Kusuda kurabu
+二本松,ja,二本松
+二本松,ja-Hrkt,にほんまつ
+二本松,en,Nihonmatsu
+二渡橋西,ja,二渡橋西
+二渡橋西,ja-Hrkt,にとばしにし
+二渡橋西,en,Nitobashi-nishi
+二股,ja,二股
+二股,ja-Hrkt,ふたまた
+二股,en,Hutamata
+井口電気前,ja,井口電気前
+井口電気前,ja-Hrkt,いぐちでんきまえ
+井口電気前,en,Iguchidenki-mae
+井汲,ja,井汲
+井汲,ja-Hrkt,いぐみ
+井汲,en,Igumi
+付知B&G海洋センター,ja,付知B&G海洋センター
+付知B&G海洋センター,ja-Hrkt,つけちびーあんどじーかいようせんたー
+付知B&G海洋センター,en,Tsukechi B&G Kaiyo center
+付知のぞみ幼稚園,ja,付知のぞみ幼稚園
+付知のぞみ幼稚園,ja-Hrkt,つけちのぞみようちえん
+付知のぞみ幼稚園,en,Tsukechi Nozomi youchien
+付知公民館,ja,付知公民館
+付知公民館,ja-Hrkt,つけちこうみんかん
+付知公民館,en,Tsukechi Kouminkan
+付知北小学校,ja,付知北小学校
+付知北小学校,ja-Hrkt,つけちきたしょうがっこう
+付知北小学校,en,Tsukechi Kita shogakko
+付知南小学校,ja,付知南小学校
+付知南小学校,ja-Hrkt,つけちみなみしょうがっこう
+付知南小学校,en,Tsukechi Minami shogakko
+付知峡不動公園口,ja,付知峡不動公園口
+付知峡不動公園口,ja-Hrkt,つけちきょうふどうこうえんぐち
+付知峡不動公園口,en,Tsukechikyo Fudokoen guchi
+付知峡倉屋温泉,ja,付知峡倉屋温泉
+付知峡倉屋温泉,ja-Hrkt,つけちきょうくらやおんせん
+付知峡倉屋温泉,en,Tsukechikyo Kuraya Onsen
+倉屋,ja,倉屋
+倉屋,ja-Hrkt,くらや
+倉屋,en,Kuraya
+元庄屋前,ja,元庄屋前
+元庄屋前,ja-Hrkt,もとじやまえ
+元庄屋前,en,Motojiya-mae
+先庄屋,ja,先庄屋
+先庄屋,ja-Hrkt,せんじょうや
+先庄屋,en,Senjoya
+八屋砥整田碑,ja,八屋砥整田碑
+八屋砥整田碑,ja-Hrkt,はちやどせいでんひ
+八屋砥整田碑,en,Hachiyado seidenhi
+八布施,ja,八布施
+八布施,ja-Hrkt,はちぶせ
+八布施,en,Hachibuse
+八布施集会場,ja,八布施集会場
+八布施集会場,ja-Hrkt,はちぶせしゅうかいじょう
+八布施集会場,en,Hachibuse shukaijo
+八幡神社,ja,八幡神社
+八幡神社,ja-Hrkt,はちまんじんじゃ
+八幡神社,en,Hachiman jinja
+公会堂下,ja,公会堂下
+公会堂下,ja-Hrkt,こうかいどうした
+公会堂下,en,koukaido-shita
+六地蔵,ja,六地蔵
+六地蔵,ja-Hrkt,ろくじぞう
+六地蔵,en,Rokujizou
+加子母歯科診療所,ja,加子母歯科診療所
+加子母歯科診療所,ja-Hrkt,かしもしかしんりょうじょ
+加子母歯科診療所,en,Kashimo shika shinryojo
+加子母総合事務所,ja,加子母総合事務所
+加子母総合事務所,ja-Hrkt,かしもそうごうじむしょ
+加子母総合事務所,en,Kashimo Sougou Jimusho
+加子母郵便局,ja,加子母郵便局
+加子母郵便局,ja-Hrkt,かしもゆうびんきょく
+加子母郵便局,en,Kashimo yubinkyoku
+勤彊の森,ja,勤彊の森
+勤彊の森,ja-Hrkt,きんきょうのもり
+勤彊の森,en,Kinkyonomori
+十一屋,ja,十一屋
+十一屋,ja-Hrkt,じゅういちや
+十一屋,en,Juichiya
+南ふれあいセンター,ja,南ふれあいセンター
+南ふれあいセンター,ja-Hrkt,みなみふれあいせんたー
+南ふれあいセンター,en,Minami fureai center
+博石館裏,ja,博石館裏
+博石館裏,ja-Hrkt,はくせきかんうら
+博石館裏,en,Hakusekikan-ura
+吉金橋,ja,吉金橋
+吉金橋,ja-Hrkt,よしかねばし
+吉金橋,en,yoshikanebashi
+向山（付知）,ja,向山（付知）
+向山（付知）,ja-Hrkt,むかいやま
+向山（付知）,en,Mukaiyama
+向山（落合）,ja,向山（落合）
+向山（落合）,ja-Hrkt,むかいやま
+向山（落合）,en,Mukaiyama
+向山下,ja,向山下
+向山下,ja-Hrkt,むかいやました
+向山下,en,Mukaiyama-shita
+向山橋,ja,向山橋
+向山橋,ja-Hrkt,むかいやまばし
+向山橋,en,Mukaiyamabashi
+向山辻,ja,向山辻
+向山辻,ja-Hrkt,むかいやまつじ
+向山辻,en,Mukaiyama tsuji
+向田瀬,ja,向田瀬
+向田瀬,ja-Hrkt,むかいだせ
+向田瀬,en,Mukaidase
+向畑住宅,ja,向畑住宅
+向畑住宅,ja-Hrkt,むかいばたじゅうたく
+向畑住宅,en,Mukaibata Jutaku
+和田口,ja,和田口
+和田口,ja-Hrkt,わだぐち
+和田口,en,Wadaguchi
+四辻,ja,四辻
+四辻,ja-Hrkt,よつじ
+四辻,en,yotsuji
+回生堂医院,ja,回生堂医院
+回生堂医院,ja-Hrkt,かいせいどういいん
+回生堂医院,en,Kaiseido iin
+土田クラブ,ja,土田クラブ
+土田クラブ,ja-Hrkt,どたくらぶ
+土田クラブ,en,Dota kurabu
+坂下中学校横,ja,坂下中学校横
+坂下中学校横,ja-Hrkt,さかしたちゅうがっこうよこ
+坂下中学校横,en,Sakashita chugakko-yoko
+坂下保育園前,ja,坂下保育園前
+坂下保育園前,ja-Hrkt,さかしたほいくえんまえ
+坂下保育園前,en,Sakashita hoikuen-mae
+坂下公民館,ja,坂下公民館
+坂下公民館,ja-Hrkt,さかしたこうみんかん
+坂下公民館,en,Sakashita kouminkan
+坂下処理場前,ja,坂下処理場前
+坂下処理場前,ja-Hrkt,さかしたしょりじょうまえ
+坂下処理場前,en,Sakashita shorijo-mae
+坂下小学校横,ja,坂下小学校横
+坂下小学校横,ja-Hrkt,さかしたしょうがっこうよこ
+坂下小学校横,en,Sakashita shogakko-yoko
+坂下新橋,ja,坂下新橋
+坂下新橋,ja-Hrkt,さかしたしんばし
+坂下新橋,en,Sakashita shinbashi
+坂下橋,ja,坂下橋
+坂下橋,ja-Hrkt,さかしたばし
+坂下橋,en,Sakashitabashi
+坂下浄水場前,ja,坂下浄水場前
+坂下浄水場前,ja-Hrkt,さかしたじょうすいじょうまえ
+坂下浄水場前,en,Sakashita josuijo-mae
+坂下総合体育館前,ja,坂下総合体育館前
+坂下総合体育館前,ja-Hrkt,さかしたそうごうたいいくかんまえ
+坂下総合体育館前,en,Sakashita sougo taiikukan-mae
+坂下診療所,ja,坂下診療所
+坂下診療所,ja-Hrkt,さかしたしんりょうじょ
+坂下診療所,en,Sakashita Shinryojo(Sakashita Hospital)
+坂下郵便局前,ja,坂下郵便局前
+坂下郵便局前,ja-Hrkt,さかしたゆうびんきょくまえ
+坂下郵便局前,en,Sakashita yubinkyoku-mae
+坂下駅前,ja,坂下駅前
+坂下駅前,ja-Hrkt,さかしたえきまえ
+坂下駅前,en,Sakashita Eki-mae
+堀懸橋,ja,堀懸橋
+堀懸橋,ja-Hrkt,ほりかけばし
+堀懸橋,en,Horikakebashi
+塞神,ja,塞神
+塞神,ja-Hrkt,さいのかみ
+塞神,en,Sainokami
+夏焼,ja,夏焼
+夏焼,ja-Hrkt,なつやけ
+夏焼,en,Natsuyake
+夏焼旧集会所,ja,夏焼旧集会所
+夏焼旧集会所,ja-Hrkt,なつやけきゅうしゅうかいじょ
+夏焼旧集会所,en,Natsuyake kyu shukaijo
+外戸尻,ja,外戸尻
+外戸尻,ja-Hrkt,がいとじり
+外戸尻,en,Gaitojiri
+外洞,ja,外洞
+外洞,ja-Hrkt,そでぼら
+外洞,en,Sodebora
+夜明け大橋,ja,夜明け大橋
+夜明け大橋,ja-Hrkt,よあけおおはし
+夜明け大橋,en,Yoake ohashi
+大山神社,ja,大山神社
+大山神社,ja-Hrkt,おおやまじんじゃ
+大山神社,en,Ooyamajinjya
+大岩,ja,大岩
+大岩,ja-Hrkt,おおいわ
+大岩,en,Oiwa
+大杉スクールバス停,ja,大杉スクールバス停
+大杉スクールバス停,ja-Hrkt,おおすぎすくーるばすてい
+大杉スクールバス停,en,Osugi school basutei
+大根木,ja,大根木
+大根木,ja-Hrkt,おおねぎ
+大根木,en,Oonegi
+大荷付場,ja,大荷付場
+大荷付場,ja-Hrkt,おおにつけば
+大荷付場,en,Onitsukeba
+大萱,ja,大萱
+大萱,ja-Hrkt,おおがや
+大萱,en,Ogaya
+大起口,ja,大起口
+大起口,ja-Hrkt,おごせぐち
+大起口,en,Ogoseguchi
+大野ゴウロ,ja,大野ゴウロ
+大野ゴウロ,ja-Hrkt,おおのごうろ
+大野ゴウロ,en,Onogouro
+大野八幡神社,ja,大野八幡神社
+大野八幡神社,ja-Hrkt,おおのはちまんじんじゃ
+大野八幡神社,en,Ono hachiman jinja
+大黒屋,ja,大黒屋
+大黒屋,ja-Hrkt,だいこくや
+大黒屋,en,daikokuya
+太陽建設,ja,太陽建設
+太陽建設,ja-Hrkt,たいようけんせつ
+太陽建設,en,Taiyo kensetsu
+奈良井辻,ja,奈良井辻
+奈良井辻,ja-Hrkt,ならいつじ
+奈良井辻,en,Naraitsuji
+奥渡公民館,ja,奥渡公民館
+奥渡公民館,ja-Hrkt,おくどこうみんかん
+奥渡公民館,en,Okudo kouminkan
+子安神社,ja,子安神社
+子安神社,ja-Hrkt,こやすじんじゃ
+子安神社,en,Koyasu jinja
+学園前,ja,学園前
+学園前,ja-Hrkt,がくえんまえ
+学園前,en,Gakuen-mae
+安楽満,ja,安楽満
+安楽満,ja-Hrkt,あらま
+安楽満,en,Arama
+安江造園前,ja,安江造園前
+安江造園前,ja-Hrkt,やすえぞうえんまえ
+安江造園前,en,Yasuezouen-mae
+安田屋,ja,安田屋
+安田屋,ja-Hrkt,やすだや
+安田屋,en,Yasudaya
+宗敦寺,ja,宗敦寺
+宗敦寺,ja-Hrkt,そうとんじ
+宗敦寺,en,Soutonji
+宮の上,ja,宮の上
+宮の上,ja-Hrkt,みやのうえ
+宮の上,en,Miyanoue
+宮の上集会所,ja,宮の上集会所
+宮の上集会所,ja-Hrkt,みやのうえしゅうかいじょ
+宮の上集会所,en,Miyanoue shukaijo
+宮の洞,ja,宮の洞
+宮の洞,ja-Hrkt,みやのほら
+宮の洞,en,Miyanohora
+宮田整田碑,ja,宮田整田碑
+宮田整田碑,ja-Hrkt,みやたせいでんひ
+宮田整田碑,en,Miyada seidenhi
+宮脇,ja,宮脇
+宮脇,ja-Hrkt,みやわき
+宮脇,en,Miyawaki
+宮裏,ja,宮裏
+宮裏,ja-Hrkt,みやうら
+宮裏,en,Miyaura
+寺地前,ja,寺地前
+寺地前,ja-Hrkt,てらちまえ
+寺地前,en,Terachi-mae
+寺尾洞,ja,寺尾洞
+寺尾洞,ja-Hrkt,てらおぼら
+寺尾洞,en,Teraobora
+小池三叉路,ja,小池三叉路
+小池三叉路,ja-Hrkt,こいけさんさろ
+小池三叉路,en,Koikesansaro
+小池旧集会所,ja,小池旧集会所
+小池旧集会所,ja-Hrkt,こいけきゅうしゅうかいじょ
+小池旧集会所,en,Koike kyu shukaijo
+小玉石,ja,小玉石
+小玉石,ja-Hrkt,こだまいし
+小玉石,en,Kodamaishi
+小田,ja,小田
+小田,ja-Hrkt,こだ
+小田,en,Koda
+小田垣外,ja,小田垣外
+小田垣外,ja-Hrkt,こだがいと
+小田垣外,en,Kodagaito
+小郷西スクールバス停,ja,小郷西スクールバス停
+小郷西スクールバス停,ja-Hrkt,おごうにしすくーるばすてい
+小郷西スクールバス停,en,Ogounishi school basutei
+小郷農道記念碑,ja,小郷農道記念碑
+小郷農道記念碑,ja-Hrkt,おごうのうどうきねんひ
+小郷農道記念碑,en,Ogou noudou kinenhi
+小野沢,ja,小野沢
+小野沢,ja-Hrkt,おのさわ
+小野沢,en,Onosawa
+尾ヶ平,ja,尾ヶ平
+尾ヶ平,ja-Hrkt,おがひら
+尾ヶ平,en,Ogahira
+尾越,ja,尾越
+尾越,ja-Hrkt,おこし
+尾越,en,Okoshi
+山の上辻,ja,山の上辻
+山の上辻,ja-Hrkt,やまのうえつじ
+山の上辻,en,Yamanoue tsuji
+山ノ田,ja,山ノ田
+山ノ田,ja-Hrkt,やまのだ
+山ノ田,en,Yamanoda
+山の田大橋,ja,山の田大橋
+山の田大橋,ja-Hrkt,やまのたおおはし
+山の田大橋,en,Yamanota ohashi
+山の神,ja,山の神
+山の神,ja-Hrkt,やまのかみ
+山の神,en,Yamanokami
+山中,ja,山中
+山中,ja-Hrkt,やまなか
+山中,en,Yamanaka
+山中弘法堂,ja,山中弘法堂
+山中弘法堂,ja-Hrkt,やまなかこうほうどう
+山中弘法堂,en,Yamanaka kouhoudo
+山之田住宅,ja,山之田住宅
+山之田住宅,ja-Hrkt,やまのたじゅうたく
+山之田住宅,en,Yamanota jutaku
+山本集会所,ja,山本集会所
+山本集会所,ja-Hrkt,やまもとしゅうかいじょ
+山本集会所,en,Yamamono shukaijo
+山野田クラブ,ja,山野田クラブ
+山野田クラブ,ja-Hrkt,やまのたくらぶ
+山野田クラブ,en,Yamanota kurabu
+岩寿口,ja,岩寿口
+岩寿口,ja-Hrkt,いわすぐち
+岩寿口,en,Iwasu guchi
+島平東,ja,島平東
+島平東,ja-Hrkt,しまへいひがし
+島平東,en,Shimahei-higashi
+島平西,ja,島平西
+島平西,ja-Hrkt,しまへいにし
+島平西,en,Shimahei-nishi
+島田橋,ja,島田橋
+島田橋,ja-Hrkt,しまだばし
+島田橋,en,Shimadabashi
+平保海戸口,ja,平保海戸口
+平保海戸口,ja-Hrkt,へぼがいとぐち
+平保海戸口,en,Hebogaitoguchi
+広岡公民館,ja,広岡公民館
+広岡公民館,ja-Hrkt,ひろおかこうみんかん
+広岡公民館,en,Hirooka kouminkan
+広島野住宅,ja,広島野住宅
+広島野住宅,ja-Hrkt,ひろしまのじゅうたく
+広島野住宅,en,Hiroshimano jutaku
+広野,ja,広野
+広野,ja-Hrkt,ひろの
+広野,en,Hirono
+弘法様,ja,弘法様
+弘法様,ja-Hrkt,こうぼうさま
+弘法様,en,Koubousama
+彩の里,ja,彩の里
+彩の里,ja-Hrkt,あやのさと
+彩の里,en,Ayanosato
+御殿山,ja,御殿山
+御殿山,ja-Hrkt,ごてんやま
+御殿山,en,Gotenyama
+徳野,ja,徳野
+徳野,ja-Hrkt,とくの
+徳野,en,Tokuno
+恵乃裾橋,ja,恵乃裾橋
+恵乃裾橋,ja-Hrkt,えのすそばし
+恵乃裾橋,en,Enosusobashi
+成栗,ja,成栗
+成栗,ja-Hrkt,なりくり
+成栗,en,Narikuri
+握公会堂下,ja,握公会堂下
+握公会堂下,ja-Hrkt,にぎりこうかいどうした
+握公会堂下,en,Nigiri kokaido-shita
+握坂,ja,握坂
+握坂,ja-Hrkt,にぎりざか
+握坂,en,Nigirizaka
+攻橋,ja,攻橋
+攻橋,ja-Hrkt,せめばし
+攻橋,en,Semebashi
+文化センター,ja,文化センター
+文化センター,ja-Hrkt,ぶんかせんたー
+文化センター,en,Bunka Center
+新田クラブ,ja,新田クラブ
+新田クラブ,ja-Hrkt,しんでんくらぶ
+新田クラブ,en,Shinden kurabu
+新田集会所,ja,新田集会所
+新田集会所,ja-Hrkt,しんでんしゅうかいじょ
+新田集会所,en,Shinden shukaijo
+新聞販売店前,ja,新聞販売店前
+新聞販売店前,ja-Hrkt,しんぶんはんばいてんまえ
+新聞販売店前,en,Shinbun hanbaiten-mae
+方外戸,ja,方外戸
+方外戸,ja-Hrkt,ほうがいと
+方外戸,en,Hougaito
+日枯谷,ja,日枯谷
+日枯谷,ja-Hrkt,ひがれや
+日枯谷,en,Higareya
+旧一色消防詰所,ja,旧一色消防詰所
+旧一色消防詰所,ja-Hrkt,きゅういっしきしょうぼうつめしょ
+旧一色消防詰所,en,Kyu isshiki shobo tsumesho
+旧加子母郵便局前,ja,旧加子母郵便局前
+旧加子母郵便局前,ja-Hrkt,きゅうかしもゆうびんきょくまえ
+旧加子母郵便局前,en,Kyu Kashimo yubinkyoku-mae
+旧桂川商店前,ja,旧桂川商店前
+旧桂川商店前,ja-Hrkt,きゅうかつらがわしょうてんまえ
+旧桂川商店前,en,Kyu Katsuragawa shoten-mae
+旧消防詰所,ja,旧消防詰所
+旧消防詰所,ja-Hrkt,きゅうしょうぼうつめしょ
+旧消防詰所,en,Kyu shobotsumesho
+旧蛭川幼稚園裏,ja,旧蛭川幼稚園裏
+旧蛭川幼稚園裏,ja-Hrkt,きゅうひるかわようちえんうら
+旧蛭川幼稚園裏,en,Kyu hirukawa youchien ura
+明治座前,ja,明治座前
+明治座前,ja-Hrkt,めいじざまえ
+明治座前,en,Meijiza-mae
+時鐘公会堂上,ja,時鐘公会堂上
+時鐘公会堂上,ja-Hrkt,ときがねこうかいどううえ
+時鐘公会堂上,en,Tokigane kokaido-ue
+時鐘北,ja,時鐘北
+時鐘北,ja-Hrkt,ときがねきた
+時鐘北,en,Tokigane-kita
+時鐘南,ja,時鐘南
+時鐘南,ja-Hrkt,ときがねみなみ
+時鐘南,en,Tokigane-minami
+曙集会所,ja,曙集会所
+曙集会所,ja-Hrkt,あけぼのしゅうかいじょ
+曙集会所,en,Akebono shukaijo
+曽我接骨院,ja,曽我接骨院
+曽我接骨院,ja-Hrkt,そがせっこついん
+曽我接骨院,en,Soga sekkotsuin
+木積沢,ja,木積沢
+木積沢,ja-Hrkt,きづみざわ
+木積沢,en,Kidumizawa
+木積沢橋,ja,木積沢橋
+木積沢橋,ja-Hrkt,きづみざわばし
+木積沢橋,en,Kidumizawabashi
+本郷（坂下）,ja,本郷（坂下）
+本郷（坂下）,ja-Hrkt,ほんごう
+本郷（坂下）,en,Hougo
+本郷（福岡）,ja,本郷（福岡）
+本郷（福岡）,ja-Hrkt,ほんごう
+本郷（福岡）,en,Hougo
+札場,ja,札場
+札場,ja-Hrkt,ふだば
+札場,en,Fudaba
+東海食品,ja,東海食品
+東海食品,ja-Hrkt,とうかいしょくひん
+東海食品,en,Toukaishokuhin
+東濃森林管理署,ja,東濃森林管理署
+東濃森林管理署,ja-Hrkt,とうのうしんりんかんりしょ
+東濃森林管理署,en,Tounou shinrin kanrisho
+東町,ja,東町
+東町,ja-Hrkt,ひがしまち
+東町,en,Higashimachi
+東町住宅,ja,東町住宅
+東町住宅,ja-Hrkt,ひがしまちじゅうたく
+東町住宅,en,higashimachi jutaku
+東組,ja,東組
+東組,ja-Hrkt,ひがしぐみ
+東組,en,Higashigumi
+東鉄バス終点,ja,東鉄バス終点
+東鉄バス終点,ja-Hrkt,とうてつばすしゅうてん
+東鉄バス終点,en,Toutetsu bus shuten
+東鉄バス車庫,ja,東鉄バス車庫
+東鉄バス車庫,ja-Hrkt,とうてつばすしゃこ
+東鉄バス車庫,en,Toutetsu bus shako
+松井石油店裏,ja,松井石油店裏
+松井石油店裏,ja-Hrkt,まついせきゅうてんうら
+松井石油店裏,en,Matsuisekyuten-ura
+松尾口,ja,松尾口
+松尾口,ja-Hrkt,まつおぐち
+松尾口,en,Matsuoguchi
+松尾旧集会所,ja,松尾旧集会所
+松尾旧集会所,ja-Hrkt,まつおきゅうしゅうかいじょ
+松尾旧集会所,en,Matsuo kyu shukaijo
+松源地,ja,松源地
+松源地,ja-Hrkt,しょうげんじ
+松源地,en,Shogenji
+林技建,ja,林技建
+林技建,ja-Hrkt,はやしぎけん
+林技建,en,Hayashi giken
+柏ヶ根口,ja,柏ヶ根口
+柏ヶ根口,ja-Hrkt,かしがねぐち
+柏ヶ根口,en,Kashiganeguchi
+柏原,ja,柏原
+柏原,ja-Hrkt,かしはら
+柏原,en,Kashihara
+栄屋,ja,栄屋
+栄屋,ja-Hrkt,さかえや
+栄屋,en,Sakaeya
+根の上,ja,根の上
+根の上,ja-Hrkt,ねのうえ
+根の上,en,Nenoue
+梨坪,ja,梨坪
+梨坪,ja-Hrkt,なしつぼ
+梨坪,en,Nashitsubo
+棚田公民館,ja,棚田公民館
+棚田公民館,ja-Hrkt,たなだこうみんかん
+棚田公民館,en,Tanada kouminkan
+森下,ja,森下
+森下,ja-Hrkt,もりした
+森下,en,Morishita
+森機械,ja,森機械
+森機械,ja-Hrkt,もりきかい
+森機械,en,Morikikai
+植苗木交差点,ja,植苗木交差点
+植苗木交差点,ja-Hrkt,うえなえぎこうさてん
+植苗木交差点,en,Uenaegi kousaten
+植苗木集会所,ja,植苗木集会所
+植苗木集会所,ja-Hrkt,うえなえぎしゅうかいじょ
+植苗木集会所,en,Uenaegi shukaijo
+椛の湖,ja,椛の湖
+椛の湖,ja-Hrkt,はなのこ
+椛の湖,en,Hananoko
+樋ヶ沢住宅,ja,樋ヶ沢住宅
+樋ヶ沢住宅,ja-Hrkt,といがさわじゅうたく
+樋ヶ沢住宅,en,Toigasawa jutaku
+権四薙,ja,権四薙
+権四薙,ja-Hrkt,ごんしなぎ
+権四薙,en,Gonshinagi
+横吹,ja,横吹
+横吹,ja-Hrkt,よこぶき
+横吹,en,Yokobuki
+樺の木,ja,樺の木
+樺の木,ja-Hrkt,かんばのき
+樺の木,en,Kanbanoki
+樺瀬東,ja,樺瀬東
+樺瀬東,ja-Hrkt,かんばせひがし
+樺瀬東,en,Kanbase-higashi
+橋本屋,ja,橋本屋
+橋本屋,ja-Hrkt,はしもとや
+橋本屋,en,Hashimotoya
+民宿下,ja,民宿下
+民宿下,ja-Hrkt,みんしゅくした
+民宿下,en,Minshuku-shita
+河村分院,ja,河村分院
+河村分院,ja-Hrkt,こうむらぶんいん
+河村分院,en,Koumura bun-in
+河村医院,ja,河村医院
+河村医院,ja-Hrkt,こうむらいいん
+河村医院,en,Koumura iin
+洞口,ja,洞口
+洞口,ja-Hrkt,ほらぐち
+洞口,en,Horaguchi
+深谷製作所,ja,深谷製作所
+深谷製作所,ja-Hrkt,ふかやせいさくじょ
+深谷製作所,en,Fukaya seisakujo
+清水,ja,清水
+清水,ja-Hrkt,しみず
+清水,en,Shimizu
+清水クラブ,ja,清水クラブ
+清水クラブ,ja-Hrkt,しみずくらぶ
+清水クラブ,en,Shimizu kurabu
+濃飛小和知バス停,ja,濃飛小和知バス停
+濃飛小和知バス停,ja-Hrkt,のうひこわちばすてい
+濃飛小和知バス停,en,Nouhi kowachi basutei
+炭焼渡,ja,炭焼渡
+炭焼渡,ja-Hrkt,すみやきど
+炭焼渡,en,Sumiyakido
+熊久保,ja,熊久保
+熊久保,ja-Hrkt,くまくぼ
+熊久保,en,Kumakubo
+熊崎石材,ja,熊崎石材
+熊崎石材,ja-Hrkt,くまざきせきざい
+熊崎石材,en,Kumazaki sekizai
+熊野口,ja,熊野口
+熊野口,ja-Hrkt,くまのぐち
+熊野口,en,Kumanoguchi
+牧野クラブ,ja,牧野クラブ
+牧野クラブ,ja-Hrkt,まきのくらぶ
+牧野クラブ,en,Makino kurabu
+用水改修記念碑,ja,用水改修記念碑
+用水改修記念碑,ja-Hrkt,ようすいかいしゅうきねんひ
+用水改修記念碑,en,Yousui kaishu kinenhi
+田之尻,ja,田之尻
+田之尻,ja-Hrkt,たのしり
+田之尻,en,Tanoshiri
+田代,ja,田代
+田代,ja-Hrkt,たしろ
+田代,en,Tashiro
+田原,ja,田原
+田原,ja-Hrkt,たはら
+田原,en,Tahara
+田原新づつみ,ja,田原新づつみ
+田原新づつみ,ja-Hrkt,たはらしんづつみ
+田原新づつみ,en,Tahara shin dutsumi
+田原消防詰所,ja,田原消防詰所
+田原消防詰所,ja-Hrkt,たはらしょうぼうつめしょ
+田原消防詰所,en,Tahara shobo tsumesho
+田口屋前,ja,田口屋前
+田口屋前,ja-Hrkt,たぐちやまえ
+田口屋前,en,Taguchiya-mae
+由喜治療院前,ja,由喜治療院前
+由喜治療院前,ja-Hrkt,ゆうきちりょういんまえ
+由喜治療院前,en,Yukichiryoin-mae
+町切公民館,ja,町切公民館
+町切公民館,ja-Hrkt,まちぎりこうみんかん
+町切公民館,en,Machigiri kouminkan
+番田,ja,番田
+番田,ja-Hrkt,ばんだ
+番田,en,Banda
+番田消防詰所前,ja,番田消防詰所前
+番田消防詰所前,ja-Hrkt,ばんだしょうぼうつめしょまえ
+番田消防詰所前,en,Banda shobo tsumesho-mae
+病院前,ja,病院前
+病院前,ja-Hrkt,びょういんまえ
+病院前,en,Byoin-mae
+真原クラブ,ja,真原クラブ
+真原クラブ,ja-Hrkt,さなわらくらぶ
+真原クラブ,en,Sanawara kurabu
+真原燈籠場,ja,真原燈籠場
+真原燈籠場,ja-Hrkt,さなわらとうろうば
+真原燈籠場,en,Sanawara tourouba
+矢平,ja,矢平
+矢平,ja-Hrkt,やだいら
+矢平,en,Yadaira
+矢平クラブ,ja,矢平クラブ
+矢平クラブ,ja-Hrkt,やだいらくらぶ
+矢平クラブ,en,Yadaira kurabu
+矢柱住宅,ja,矢柱住宅
+矢柱住宅,ja-Hrkt,やばしらじゅうたく
+矢柱住宅,en,Yabashira jutaku
+矢渕,ja,矢渕
+矢渕,ja-Hrkt,やぶち
+矢渕,en,Yabuchi
+矢筈,ja,矢筈
+矢筈,ja-Hrkt,やはず
+矢筈,en,Yahazu
+矢筈口,ja,矢筈口
+矢筈口,ja-Hrkt,やはずぐち
+矢筈口,en,Yahazuguchi
+知原集会所,ja,知原集会所
+知原集会所,ja-Hrkt,ちはらしゅうかいじょ
+知原集会所,en,Chihara shukaijo
+石畳下,ja,石畳下
+石畳下,ja-Hrkt,いしだたみした
+石畳下,en,Ishidatami-shita
+福平,ja,福平
+福平,ja-Hrkt,ふくだいら
+福平,en,Fukudaira
+稲舟,ja,稲舟
+稲舟,ja-Hrkt,いなふね
+稲舟,en,Inafune
+稲荷平集会所,ja,稲荷平集会所
+稲荷平集会所,ja-Hrkt,いなりだいらしゅうかいじょ
+稲荷平集会所,en,Inaridaira shukaijo
+竹内医院,ja,竹内医院
+竹内医院,ja-Hrkt,たけうちいいん
+竹内医院,en,Takeuchi iin
+糸魚川建築前,ja,糸魚川建築前
+糸魚川建築前,ja-Hrkt,いといがわけんちくまえ
+糸魚川建築前,en,Itoigawa kenchiku-mae
+紅梅屋,ja,紅梅屋
+紅梅屋,ja-Hrkt,こうばいや
+紅梅屋,en,Koubaiya
+細ヶ谷,ja,細ヶ谷
+細ヶ谷,ja-Hrkt,ほそがや
+細ヶ谷,en,Hosogaya
+総合福祉センター,ja,総合福祉センター
+総合福祉センター,ja-Hrkt,そうごうふくしせんたー
+総合福祉センター,en,Sougou fukishi center
+芸術思考館,ja,芸術思考館
+芸術思考館,ja-Hrkt,げいじゅつしこうかん
+芸術思考館,en,Geijutsu shikoukan
+若宮集会所,ja,若宮集会所
+若宮集会所,ja-Hrkt,わかみやしゅうかいじょ
+若宮集会所,en,Wakamiya shukaijo
+若山,ja,若山
+若山,ja-Hrkt,わかやま
+若山,en,Wakayama
+若山マレットゴルフ場,ja,若山マレットゴルフ場
+若山マレットゴルフ場,ja-Hrkt,わかやままれっとごるふじょう
+若山マレットゴルフ場,en,Wakayama Mallet Golf
+若山口,ja,若山口
+若山口,ja-Hrkt,わかやまぐち
+若山口,en,Wakayamaguchi
+菓子上,ja,菓子上
+菓子上,ja-Hrkt,かしうえ
+菓子上,en,Kashiue
+落合事務所,ja,落合事務所
+落合事務所,ja-Hrkt,おちあいじむしょ
+落合事務所,en,Ochiai jimusho
+落合小学校,ja,落合小学校
+落合小学校,ja-Hrkt,おちあいしょうがっこう
+落合小学校,en,Ochiai shogakko
+落合川駅,ja,落合川駅
+落合川駅,ja-Hrkt,おちあいがわえき
+落合川駅,en,Ochiaigawa Eki(Ochiaigawa Sta.)
+落合川駅上,ja,落合川駅上
+落合川駅上,ja-Hrkt,おちあいがわえきうえ
+落合川駅上,en,Ochiaigawa Eki-ue
+落合診療所,ja,落合診療所
+落合診療所,ja-Hrkt,おちあいしんりょうじょ
+落合診療所,en,Ochiai shinryojo
+薬師口,ja,薬師口
+薬師口,ja-Hrkt,やくしぐち
+薬師口,en,Yakushiguchi
+藤上組集会所,ja,藤上組集会所
+藤上組集会所,ja-Hrkt,ふじあげぐみしゅうかいじょ
+藤上組集会所,en,Hujiagegumi shukaijo
+藤山,ja,藤山
+藤山,ja-Hrkt,ふじやま
+藤山,en,Fujiyama
+藪下,ja,藪下
+藪下,ja-Hrkt,やぶした
+藪下,en,Yabushita
+蛍橋,ja,蛍橋
+蛍橋,ja-Hrkt,ほたるばし
+蛍橋,en,Hotarubashi
+蛭川中学校下,ja,蛭川中学校下
+蛭川中学校下,ja-Hrkt,ひるかわちゅうがっこうした
+蛭川中学校下,en,Hirukawa chugakko-shita
+蛭川総合事務所,ja,蛭川総合事務所
+蛭川総合事務所,ja-Hrkt,ひるかわそうごうじむしょ
+蛭川総合事務所,en,Hirukawa sougo jimusho(Hirukawa City Office)
+蛭川診療所,ja,蛭川診療所
+蛭川診療所,ja-Hrkt,ひるかわしんりょうじょ
+蛭川診療所,en,Hirukawa shinryojo
+蛭川郵便局,ja,蛭川郵便局
+蛭川郵便局,ja-Hrkt,ひるかわゆうびんきょく
+蛭川郵便局,en,Hirukawa yubinkyoku
+蜂屋海戸,ja,蜂屋海戸
+蜂屋海戸,ja-Hrkt,はちやがいと
+蜂屋海戸,en,Hachiyagaito
+袖ヶ沢,ja,袖ヶ沢
+袖ヶ沢,ja-Hrkt,そでがさわ
+袖ヶ沢,en,Sodegasawa
+西方寺公会堂,ja,西方寺公会堂
+西方寺公会堂,ja-Hrkt,さいほうじこうかいどう
+西方寺公会堂,en,Saihouji koukaido
+西組,ja,西組
+西組,ja-Hrkt,にしぐみ
+西組,en,nishigumi
+西組集会所上,ja,西組集会所上
+西組集会所上,ja-Hrkt,にしぐみしゅうかいじょうえ
+西組集会所上,en,Nishigumi shukaijo-ue
+見佐島,ja,見佐島
+見佐島,ja-Hrkt,みさしま
+見佐島,en,Misashima
+観音様,ja,観音様
+観音様,ja-Hrkt,かんのんさま
+観音様,en,Kan-nonsama
+角領公民館,ja,角領公民館
+角領公民館,ja-Hrkt,かくりょうこうみんかん
+角領公民館,en,Kakuryo kouminkan
+記念碑,ja,記念碑
+記念碑,ja-Hrkt,きねんひ
+記念碑,en,Kinenhi
+赤田,ja,赤田
+赤田,ja-Hrkt,あこだ
+赤田,en,Akada
+赤田公会堂,ja,赤田公会堂
+赤田公会堂,ja-Hrkt,あこだこうかいどう
+赤田公会堂,en,Akada kokaido
+起シ,ja,起シ
+起シ,ja-Hrkt,おこし
+起シ,en,Okoshi
+農園前,ja,農園前
+農園前,ja-Hrkt,のうえんまえ
+農園前,en,Nouen-mae
+辻,ja,辻
+辻,ja-Hrkt,つじ
+辻,en,Tsuji
+辻屋口,ja,辻屋口
+辻屋口,ja-Hrkt,つじやぐち
+辻屋口,en,Tsujiyaguchi
+辻屋橋,ja,辻屋橋
+辻屋橋,ja-Hrkt,つじやばし
+辻屋橋,en,Tsujiyabashi
+道の駅加子母,ja,道の駅加子母
+道の駅加子母,ja-Hrkt,みちのえきかしも
+道の駅加子母,en,Michinoeki Kashimo
+遠ヶ根１,ja,遠ヶ根１
+遠ヶ根１,ja-Hrkt,とおがねいち
+遠ヶ根１,en,Togane ichi
+遠ヶ根２,ja,遠ヶ根２
+遠ヶ根２,ja-Hrkt,とおがねに
+遠ヶ根２,en,Togane ni
+郵便局前（福岡）,ja,郵便局前（福岡）
+郵便局前（福岡）,ja-Hrkt,ゆうびんきょくまえ
+郵便局前（福岡）,en,Yubinkyoku-mae
+野久保,ja,野久保
+野久保,ja-Hrkt,のくぼ
+野久保,en,Nokubo
+野内クラブ,ja,野内クラブ
+野内クラブ,ja-Hrkt,のうちくらぶ
+野内クラブ,en,Nouchi kurabu
+野尻,ja,野尻
+野尻,ja-Hrkt,のじり
+野尻,en,Nojiri
+野田クラブ,ja,野田クラブ
+野田クラブ,ja-Hrkt,のだくらぶ
+野田クラブ,en,Noda kurabu
+野田口,ja,野田口
+野田口,ja-Hrkt,のだぐち
+野田口,en,Nodaguchi
+鉱山口,ja,鉱山口
+鉱山口,ja-Hrkt,こうざんぐち
+鉱山口,en,Kouzanguchi
+銭亀,ja,銭亀
+銭亀,ja-Hrkt,ぜにがめ
+銭亀,en,Zenigame
+銭亀倶楽部,ja,銭亀倶楽部
+銭亀倶楽部,ja-Hrkt,ぜにがめくらぶ
+銭亀倶楽部,en,Zenigame kurabu
+鍛冶屋畑,ja,鍛冶屋畑
+鍛冶屋畑,ja-Hrkt,かじやばた
+鍛冶屋畑,en,kajiyabata
+鍛冶島,ja,鍛冶島
+鍛冶島,ja-Hrkt,かじしま
+鍛冶島,en,Kajishima
+鎌井野,ja,鎌井野
+鎌井野,ja-Hrkt,かまいの
+鎌井野,en,Kamaino
+長根会館,ja,長根会館
+長根会館,ja-Hrkt,ちょうねかいかん
+長根会館,en,Chone kaikan
+長楽寺,ja,長楽寺
+長楽寺,ja-Hrkt,ちょうらくじ
+長楽寺,en,Chorakuji
+長瀞,ja,長瀞
+長瀞,ja-Hrkt,ながとろ
+長瀞,en,Nagatoro
+長瀞橋,ja,長瀞橋
+長瀞橋,ja-Hrkt,ながとろばし
+長瀞橋,en,Nagatorobashi
+門田橋,ja,門田橋
+門田橋,ja-Hrkt,かどたばし
+門田橋,en,Kadotabashi
+関戸,ja,関戸
+関戸,ja-Hrkt,せきど
+関戸,en,Sekido
+阿佐木前,ja,阿佐木前
+阿佐木前,ja-Hrkt,あさぎまえ
+阿佐木前,en,Asagimae
+阿弥陀様前,ja,阿弥陀様前
+阿弥陀様前,ja-Hrkt,あみださままえ
+阿弥陀様前,en,Amidasama-mae
+阿木交流センター,ja,阿木交流センター
+阿木交流センター,ja-Hrkt,あぎこうりゅうせんたー
+阿木交流センター,en,Agi kouryu center
+阿木診療所,ja,阿木診療所
+阿木診療所,ja-Hrkt,あぎしんりょうじょ
+阿木診療所,en,Agi shinryojo
+阿木郵便局,ja,阿木郵便局
+阿木郵便局,ja-Hrkt,あぎゆうびんきょく
+阿木郵便局,en,Agi yubinkyoku(Agi Postoffice)
+阿木駅,ja,阿木駅
+阿木駅,ja-Hrkt,あぎえき
+阿木駅,en,Agi Eki(Agi Sta.)
+隠平,ja,隠平
+隠平,ja-Hrkt,かくれだいら
+隠平,en,Kakuredaira
+飯沼駅,ja,飯沼駅
+飯沼駅,ja-Hrkt,いいぬまえき
+飯沼駅,en,Iinuma Eki(Iinuma Sta.)
+馬場上,ja,馬場上
+馬場上,ja-Hrkt,まばかみ
+馬場上,en,Mabakami
+馬小屋,ja,馬小屋
+馬小屋,ja-Hrkt,まごや
+馬小屋,en,Magoya
+高之巣,ja,高之巣
+高之巣,ja-Hrkt,たかのす
+高之巣,en,Takanosu
+高屋,ja,高屋
+高屋,ja-Hrkt,たかや
+高屋,en,Takaya
+高山大橋西,ja,高山大橋西
+高山大橋西,ja-Hrkt,たかやまおおはしにし
+高山大橋西,en,Takayama ohashi-nishi
+高部,ja,高部
+高部,ja-Hrkt,たかべ
+高部,en,Takabe
+高部公会堂,ja,高部公会堂
+高部公会堂,ja-Hrkt,たかべこうかいどう
+高部公会堂,en,Takabe koukaidou
+鳥屋脇,ja,鳥屋脇
+鳥屋脇,ja-Hrkt,とやき
+鳥屋脇,en,Toyaki
+鳩吹公民館,ja,鳩吹公民館
+鳩吹公民館,ja-Hrkt,はとふきこうみんかん
+鳩吹公民館,en,Hatohuki kouminkan
+黒川谷,ja,黒川谷
+黒川谷,ja-Hrkt,くろかわだに
+黒川谷,en,Kurokawadani
+黒沢,ja,黒沢
+黒沢,ja-Hrkt,くろさわ
+黒沢,en,Kurosawa
+黒田,ja,黒田
+黒田,ja-Hrkt,くろだ
+黒田,en,Kuroda
+黒田クラブ,ja,黒田クラブ
+黒田クラブ,ja-Hrkt,くろだくらぶ
+黒田クラブ,en,Kuroda kurabu
+上之平・下組方面,ja,上之平・下組方面
+上之平・下組方面,en,Uenotaira&Simogumi
+加子母総合事務所 (万賀 方面),ja,加子母総合事務所 (万賀 方面)
+加子母総合事務所 (万賀 方面),en,Kashimo Sougou Jimusho via Manga
+加子母総合事務所 (小郷 方面),ja,加子母総合事務所 (小郷 方面)
+加子母総合事務所 (小郷 方面),en,Kashimo Sougou Jimusho via Ogo
+坂下駅前 (上鐘・松源地 方面),ja,坂下駅前 (上鐘・松源地 方面)
+坂下駅前 (上鐘・松源地 方面),en,Sakashita Eki-mae via Uegane&Shogenji
+坂下駅前 (下野口 方面),ja,坂下駅前 (下野口 方面)
+坂下駅前 (下野口 方面),en,Sakashita Eki-mae via Shimonoguchi
+坂下駅前 (小田・門田橋 方面),ja,坂下駅前 (小田・門田橋 方面)
+坂下駅前 (小田・門田橋 方面),en,Sakashita Eki-mae via Koda&Kadodabashi
+坂下駅前 (西方寺・握・高部 方面),ja,坂下駅前 (西方寺・握・高部 方面)
+坂下駅前 (西方寺・握・高部 方面),en,Sakashita Eki-mae via Saihouji&Nigiri&Takabe
+新田方面,ja,新田方面
+新田方面,en,Shinden
+本郷方面,ja,本郷方面
+本郷方面,en,Hongo
+矢平方面,ja,矢平方面
+矢平方面,en,Yadaira
+若山方面,ja,若山方面
+若山方面,en,Wakayama
+落合事務所 (山の田・三五沢 方面),ja,落合事務所 (山の田・三五沢 方面)
+落合事務所 (山の田・三五沢 方面),en,Ochiai Jimusho via Yamanota&Sangosawa
+落合事務所 (落合川駅 経由）,ja,落合事務所 (落合川駅 経由）
+落合事務所 (落合川駅 経由）,en,Ochiai Jimusho via Ochiaigawa Eki
+蛭川診療所 (和田 方面),ja,蛭川診療所 (和田 方面)
+蛭川診療所 (和田 方面),en,Hirukawa shinryojo via Wada
+蛭川診療所 (奈良井・田原 方面),ja,蛭川診療所 (奈良井・田原 方面)
+蛭川診療所 (奈良井・田原 方面),en,Hirukawa shinryojo via Narai&Tahara
+蛭川診療所 (奥渡・田原 方面),ja,蛭川診療所 (奥渡・田原 方面)
+蛭川診療所 (奥渡・田原 方面),en,Hirukawa shinryojo via Okudo&Tahara
+阿木交流センター (広岡・真原 方面),ja,阿木交流センター (広岡・真原 方面)
+阿木交流センター (広岡・真原 方面),en,Agi kouryu center via Hirooka&Sanawara
+阿木交流センター (飯沼・野田 方面),ja,阿木交流センター (飯沼・野田 方面)
+阿木交流センター (飯沼・野田 方面),en,Agi kouryu center via Hirooka&Sanawara
+阿木交流センター(飯沼・野田 方面),ja,阿木交流センター(飯沼・野田 方面)
+阿木交流センター(飯沼・野田 方面),en,Agi kouryu center via Iinuma&Noda
+ひとつばたご線,ja,ひとつばたご線
+ひとつばたご線,en,Hitotsubatago Line
+みちくさ線,ja,みちくさ線
+みちくさ線,en,Michikusa Line
+上之平・下組線,ja,上之平・下組線
+上之平・下組線,en,Uenotaira-Simogumi Line
+上野・合郷線,ja,上野・合郷線
+上野・合郷線,en,Ueno-Asugo Line
+上野・外洞線,ja,上野・外洞線
+上野・外洞線,en,Ueno-Sodebora Line
+上野線,ja,上野線
+上野線,en,Ueno Line
+上鐘・松源地線,ja,上鐘・松源地線
+上鐘・松源地線,en,Uegane-Shogenji Line
+付知巡回線,ja,付知巡回線
+付知巡回線,en,Tsukechi Line
+加子母巡回線,ja,加子母巡回線
+加子母巡回線,en,Kashimo Line
+合郷線,ja,合郷線
+合郷線,en,Asugo Line
+外洞線,ja,外洞線
+外洞線,en,Sodebora Line
+山の田・三五沢線,ja,山の田・三五沢線
+山の田・三五沢線,en,Yamanota-Sangosawa Line
+新田線,ja,新田線
+新田線,en,Shinden Line
+本郷線,ja,本郷線
+本郷線,en,Hongo Line
+杵振り線,ja,杵振り線
+杵振り線,en,Kinefuri Line
+矢平線,ja,矢平線
+矢平線,en,Yadaira Line
+紅岩線,ja,紅岩線
+紅岩線,en,Beniiwa Line
+若山線,ja,若山線
+若山線,en,Wakayama Line
+落合巡回線,ja,落合巡回線
+落合巡回線,en,Ochiai Line
+西方寺・握・高部線,ja,西方寺・握・高部線
+西方寺・握・高部線,en,Saihouji-Nigiri-Takabe Line
+阿木巡回線,ja,阿木巡回線
+阿木巡回線,en,Agi Line

@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+4000020212067,中津川市,http://www.city.nakatsugawa.gifu.jp/page/051067.html,Asia/Tokyo,ja,0573-66-1111,,
