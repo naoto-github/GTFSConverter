@@ -32,6 +32,6 @@ $python GTFSConverter --gtfs GTFSファイル --tmp_dir TMPフォルダ --json_d
 			"stop_id": "1001_01", 
 			"stop_name": "落合事務所"
 		}
-	}
+	}]
 }
 ```
