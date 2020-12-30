@@ -15,3 +15,23 @@ ZIP圧縮されたファイルを解凍するフォルダを`--tmp_dir`，JSON�
 ```
 $python GTFSConverter --gtfs GTFSファイル --tmp_dir TMPフォルダ --json_dir JSONフォルダ
 ```
+## フォーマット
+
+### stops.geojson
+
+```
+{
+	"type": "FeatureCollection", 
+	"features": [{
+		"type": "Feature", 
+		"geometry": {
+			"type": "Point", 
+			"coordinates": [137.53108999999998, 35.51343]
+		}, 
+		"properties": {
+			"stop_id": "1001_01", 
+			"stop_name": "落合事務所"
+		}
+	}
+}
+```
