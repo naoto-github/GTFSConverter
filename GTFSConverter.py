@@ -93,7 +93,7 @@ for index, record in trips_csv.iterrows():
             "stop_id": [stop_id],
             "stop_sequence": [stop_sequence]
         }
-    else:
+    else:        
         trip_dic[trip_id]["arrival_time"].append(arrival_time)
         trip_dic[trip_id]["departure_time"].append(departure_time)
         trip_dic[trip_id]["stop_id"].append(stop_id)
@@ -157,21 +157,28 @@ for key in trip_dic.keys():
         stop_name = stop_dict[stop_id]["properties"]["stop_name"]
         stop_sequence = int(stop_sequence) - 1
 
+        record = {
+            "trip_id": trip["trip_id"],
+            "stop_headsign": trip["stop_headsign"],
+            "arrival_time": trip["arrival_time"][stop_sequence],
+            "departure_time": trip["departure_time"][stop_sequence],
+        }
+        
         if(stop_id in timetable_list):
-            timetable_list[stop_id]["trip_id"].append(trip["trip_id"])
-            timetable_list[stop_id]["stop_headsign"].append(trip["stop_headsign"])
-            timetable_list[stop_id]["arrival_time"].append(trip["arrival_time"][stop_sequence])
-            timetable_list[stop_id]["departure_time"].append(trip["departure_time"][stop_sequence])
+            timetable_list[stop_id]["records"].append(record)
         else:            
             timetable_list[stop_id] = {
                 "stop_id": stop_id,
                 "stop_name": stop_name,
-                "trip_id": [trip["trip_id"]],
-                "stop_headsign": [trip["stop_headsign"]],
-                "arrival_time": [trip["arrival_time"][stop_sequence]],
-                "departure_time": [trip["departure_time"][stop_sequence]],
+                "records": [record]
             }
 
+# 到着時刻でソート
+for key in timetable_list.keys():
+    timetable_list[key]["records"] = sorted(timetable_list[key]["records"], key=lambda x: x["arrival_time"])
+
+print(timetable_list["6001_01"])
+    
 # ファイル出力
 filename =  JSON_DIR + "timetable.json"
 with open(filename, "w") as file:
