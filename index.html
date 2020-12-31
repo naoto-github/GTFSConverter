@@ -16,7 +16,10 @@
     
     <script>
 
+      // ズームレベル
       let zoom = 13
+
+      // 地図オブジェクト
       let map = L.map("mapid");
       
       L.tileLayer(
@@ -31,46 +34,75 @@
       let timetable_json_url = "https://raw.githubusercontent.com/naoto-github/GTFSConverter/main/json/timetable.json"
       
       // バス停のGeoJSONデータの処理
-      $.getJSON(stops_geojson_url, function(data){
-	  console.log(data);
+      $.getJSON(stops_geojson_url, function(stop_data){
+	  $.getJSON(timetable_json_url, function(timetable_data){
+	      console.log(stop_data);
+	      console.log(timetable_data)
+	      
+	      center_lat = []
+	      center_lon = []
+	      
+	      // 地図に表示
+	      L.geoJSON(stop_data, {
+		  pointToLayer: function(feature, latlng){
+		      
+		      center_lat.push(latlng.lat)
+		      center_lon.push(latlng.lng)
+		      
+		      circle_marker = L.circleMarker(latlng, {
+			  "color": "orange",
+			  "opacity": 1,
+			  "fillColor": "orange",
+			  "fillOpacity": 0.8
+		      });
+		      return circle_marker;
+		  },
+		  onEachFeature: function(feature, layer){
 
-	  center_lat = []
-	  center_lon = []
-	  
-	  // 地図に表示
-	  L.geoJSON(data, {
-	      pointToLayer: function(feature, latlng){
+		      let html = "<div>"
+		      
+		      // バス停
+		      html += `<h2>${feature.properties.stop_name}</h2>`
 
-		  center_lat.push(latlng.lat)
-		  center_lon.push(latlng.lng)
-		  
-		  circle_marker = L.circleMarker(latlng, {
-		      "color": "orange",
-		      "opacity": 1,
-		      "fillColor": "orange",
-		      "fillOpacity": 0.8
-		  });
-		  return circle_marker;
-	      },
-	      onEachFeature: function(feature, layer){
-		  let popup_html = `<div><h2>${feature.properties.stop_name}</h2></div>`
-		  layer.bindPopup(popup_html);
-	      }
-	  }).addTo(map);
+		      //時刻表
+		      timetable = timetable_data[feature.properties.stop_id]
+		      for(var i=0; i<timetable["records"].length; i++){
+			  record = timetable["records"][i];
+			  route_long_name = record["route_long_name"];
+			  trip_headsign = record["trip_headsign"];
+			  departure_time = record["departure_time"];
+			  html += `<p><b>${route_long_name}</b> ${departure_time} (${trip_headsign})</p>`
+		      }
 
-	  center_lat = math.mean(center_lat);
-	  center_lon = math.mean(center_lon);	  
-	  center = L.latLng(center_lat, center_lon);
+		      html += "</div>"
+		      
+		      layer.bindPopup(html);
+		  }
+	      }).addTo(map);
+	      
+	      center_lat = math.mean(center_lat);
+	      center_lon = math.mean(center_lon);	  
+	      center = L.latLng(center_lat, center_lon);
+	      
+	      map.setView(center, zoom);
 
-	  map.setView(center, zoom);
+	  })
       })
 
       // 経路のGeoJSONデータの処理
-      $.getJSON(routes_geojson_url, function(data){
-	  console.log(data);
+      $.getJSON(routes_geojson_url, function(route_data){
+	  console.log(route_data);
 
 	  // 地図に表示
-	  L.geoJSON(data).addTo(map);
+	  L.geoJSON(route_data,{
+	      style: function(feature){
+		  style_text = {
+		      "color": "yellow"
+		  }
+
+		  return style_text
+	      }
+	  }).addTo(map);
       })      
       
       </script>

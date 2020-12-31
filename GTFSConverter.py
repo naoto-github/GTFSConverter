@@ -16,17 +16,17 @@ JSON_DIR = args.json_dir
 
 # ZIPファイルの展開
 zip_file = zipfile.ZipFile(GTFS_FILE)
-calendar_file = zip_file.extract("calendar.txt", TMP_DIR)
-calendar_dates_file = zip_file.extract("calendar_dates.txt", TMP_DIR)
-fare_attributes_file = zip_file.extract("fare_attributes.txt", TMP_DIR)
-fare_rules_file = zip_file.extract("fare_rules.txt", TMP_DIR)
-feed_info_file = zip_file.extract("feed_info.txt", TMP_DIR)
+#calendar_file = zip_file.extract("calendar.txt", TMP_DIR)
+#calendar_dates_file = zip_file.extract("calendar_dates.txt", TMP_DIR)
+#fare_attributes_file = zip_file.extract("fare_attributes.txt", TMP_DIR)
+#fare_rules_file = zip_file.extract("fare_rules.txt", TMP_DIR)
+#feed_info_file = zip_file.extract("feed_info.txt", TMP_DIR)
 routes_file = zip_file.extract("routes.txt", TMP_DIR)
 stop_times_file = zip_file.extract("stop_times.txt", TMP_DIR)
 stops_file = zip_file.extract("stops.txt", TMP_DIR)
-translations_file = zip_file.extract("translations.txt", TMP_DIR)
+#translations_file = zip_file.extract("translations.txt", TMP_DIR)
 trips_file = zip_file.extract("trips.txt", TMP_DIR)
-agency_file = zip_file.extract("agency.txt", TMP_DIR)
+#agency_file = zip_file.extract("agency.txt", TMP_DIR)
 
 #--------------------------------------------------
 # バス停データ（GeoJSON）の処理
