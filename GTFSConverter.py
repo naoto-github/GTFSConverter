@@ -40,7 +40,7 @@ for index, record in stops_csv.iterrows():
     stop_name = record["stop_name"]
     stop_lat = record["stop_lat"]
     stop_lon = record["stop_lon"]
-    #print(f"{stop_id} {stop_name} {stop_lat} {stop_lon}")
+    #print(f"stop_id={stop_id} stop_name={stop_name} stop_lat={stop_lat} stop_lon={stop_lon}")
 
     stop_dict[stop_id] = {
         "type": "Feature",
@@ -68,6 +68,54 @@ with open(filename, "w") as file:
 #--------------------------------------------------
 
 #--------------------------------------------------
+# トリップデータの処理
+
+trip_names_csv = pd.read_csv(trips_file)
+
+trip_name_dic = {}
+
+for index, record in trip_names_csv.iterrows():
+    route_id = record["route_id"]
+    service_id = record["service_id"]
+    trip_id = record["trip_id"]
+    trip_headsign = record["trip_headsign"]
+    #print(f"route_id={route_id} service_id={service_id} trip_id={trip_id} trip_headsign={trip_headsign}")
+
+    trip_name = {
+        "route_id": route_id,
+        "service_id": service_id,
+        "trip_id": trip_id,
+        "trip_headsign": trip_headsign
+    }
+
+    trip_name_dic[trip_id] = trip_name
+
+#--------------------------------------------------
+
+#--------------------------------------------------
+# 路線名の処理
+
+route_names_csv = pd.read_csv(routes_file)
+
+route_name_dic = {}
+
+for index, record in route_names_csv.iterrows():
+    route_id = record["route_id"]
+    route_long_name = record["route_long_name"]
+    route_color = record["route_color"]
+    #print(f"route_id={route_id} route_long_name={route_long_name} route_color={route_color}")
+
+    route_name = {
+        "route_id": route_id,
+        "route_long_name": route_long_name,
+        "route_color": route_color
+    }
+
+    route_name_dic[route_id] = route_name
+
+#--------------------------------------------------
+
+#--------------------------------------------------
 # 経路データの処理
 
 trips_csv = pd.read_csv(stop_times_file)
@@ -82,7 +130,7 @@ for index, record in trips_csv.iterrows():
     stop_id = record["stop_id"]
     stop_sequence = int(record["stop_sequence"])
     stop_headsign = record["stop_headsign"]
-    #print(f"{trip_id} {arrival_time} {departure_time} {stop_id} {stop_sequence} {stop_headsign}")
+    #print(f"trip_id={trip_id} arrival_time={arrival_time} departure_time={departure_time} stop_id={stop_id} stop_sequence={stop_sequence} stop_headsign={stop_headsign}")
 
     if(not(trip_id in trip_dic)):
         trip_dic[trip_id] = {
@@ -120,6 +168,9 @@ for key in trip_dic.keys():
         },
         "properties": {
             "trip_id": trip["trip_id"],
+            "service_id": trip_name_dic[trip["trip_id"]]["service_id"],
+            "route_long_name": route_name_dic[trip_name_dic[trip["trip_id"]]["route_id"]]["route_long_name"],
+            "trip_headsign": trip_name_dic[trip["trip_id"]]["trip_headsign"],            
             "stop_headsign": trip["stop_headsign"],
             "arrival_time": trip["arrival_time"],
             "departure_time": trip["departure_time"],
@@ -159,6 +210,9 @@ for key in trip_dic.keys():
 
         record = {
             "trip_id": trip["trip_id"],
+            "service_id": trip_name_dic[trip["trip_id"]]["service_id"],
+            "route_long_name": route_name_dic[trip_name_dic[trip["trip_id"]]["route_id"]]["route_long_name"],
+            "trip_headsign": trip_name_dic[trip["trip_id"]]["trip_headsign"],                        
             "stop_headsign": trip["stop_headsign"],
             "arrival_time": trip["arrival_time"][stop_sequence],
             "departure_time": trip["departure_time"][stop_sequence],
@@ -176,8 +230,6 @@ for key in trip_dic.keys():
 # 到着時刻でソート
 for key in timetable_list.keys():
     timetable_list[key]["records"] = sorted(timetable_list[key]["records"], key=lambda x: x["arrival_time"])
-
-print(timetable_list["6001_01"])
     
 # ファイル出力
 filename =  JSON_DIR + "timetable.json"
