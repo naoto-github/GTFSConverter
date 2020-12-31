@@ -1,6 +1,6 @@
 # GTFSConverter
 
-任意のZIP圧縮されたGTFSファイルを，バス停(stops.geojson)，経路(routes.geojson)，時刻表(timetable.json)を表すJSONファイルに変換します．バス停と経路は[GeoJSON](https://geojson.org/)フォーマットに従い，それぞれ **Point** と **LineString** で表されます．一方，時刻表は独自のフォーマットです．
+任意のZIP圧縮されたGTFSファイルを，バス停(stops.geojson)，経路(routes.geojson)，経路情報（route.json），時刻表(timetable.json)を表すJSONファイルに変換します．バス停と経路は[GeoJSON](https://geojson.org/)フォーマットに従い，それぞれ **Point** と **LineString** で表されます．一方，経路情報と時刻表は独自のフォーマットです．
 
 ## 使い方
 
@@ -51,13 +51,25 @@ $python GTFSConverter --gtfs GTFSファイル --tmp_dir TMPフォルダ --json_d
 			"service_id": "福岡金", 
 			"route_long_name": "新田線", 
 			"trip_headsign": "新田方面",						
-			"stop_headsign": "新田方面", 
-			"arrival_time": ["08:32:00", "08:34:00", "08:35:00", "08:36:00", "08:38:00", "08:39:00", "08:41:00", "08:42:00", "08:43:00", "08:45:00", "08:46:00", "08:47:00", "08:50:00", "08:52:00", "08:56:00", "08:57:00", "09:02:00", "09:07:00"], 
-			"departure_time": ["08:32:00", "08:34:00", "08:35:00", "08:36:00", "08:38:00", "08:39:00", "08:41:00", "08:42:00", "08:43:00", "08:45:00", "08:46:00", "08:47:00", "08:50:00", "08:52:00", "08:56:00", "08:57:00", "09:02:00", "09:07:00"], 
-			"stop_id": ["6001_01", "6052_01", "6053_01", "6054_01", "6055_01", "6056_01", "6057_01", "6058_01", "6059_01", "6060_01", "6061_01", "6062_01", "6063_01", "6064_01", "6065_01", "6066_01", "6067_01", "6068_01"], 
-			"stop_sequence": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+			"stop_headsign": "新田方面"
 		}
 	}]
+}
+```
+
+### route.json
+
+```
+{
+	"10福岡金_08時32分_系統641001": 
+	{
+		"trip_id": "10福岡金_08時32分_系統641001", 
+		"service_id": "福岡金", 
+		"route_long_name": "新田線", 
+		"trip_headsign": "新田方面", 
+		"stop_headsign": "新田方面", 
+		"records": [{"arrival_time": "08:32:00", "departure_time": "08:32:00", "stop_id": "6001_01", "stop_sequence": 1}, {"arrival_time": "08:34:00", "departure_time": "08:34:00", "stop_id": "6052_01", "stop_sequence": 2}, {"arrival_time": "08:35:00", "departure_time": "08:35:00", "stop_id": "6053_01", "stop_sequence": 3}, {"arrival_time": "08:36:00", "departure_time": "08:36:00", "stop_id": "6054_01", "stop_sequence": 4}, {"arrival_time": "08:38:00", "departure_time": "08:38:00", "stop_id": "6055_01", "stop_sequence": 5}, {"arrival_time": "08:39:00", "departure_time": "08:39:00", "stop_id": "6056_01", "stop_sequence": 6}, {"arrival_time": "08:41:00", "departure_time": "08:41:00", "stop_id": "6057_01", "stop_sequence": 7}, {"arrival_time": "08:42:00", "departure_time": "08:42:00", "stop_id": "6058_01", "stop_sequence": 8}, {"arrival_time": "08:43:00", "departure_time": "08:43:00", "stop_id": "6059_01", "stop_sequence": 9}, {"arrival_time": "08:45:00", "departure_time": "08:45:00", "stop_id": "6060_01", "stop_sequence": 10}, {"arrival_time": "08:46:00", "departure_time": "08:46:00", "stop_id": "6061_01", "stop_sequence": 11}, {"arrival_time": "08:47:00", "departure_time": "08:47:00", "stop_id": "6062_01", "stop_sequence": 12}, {"arrival_time": "08:50:00", "departure_time": "08:50:00", "stop_id": "6063_01", "stop_sequence": 13}, {"arrival_time": "08:52:00", "departure_time": "08:52:00", "stop_id": "6064_01", "stop_sequence": 14}, {"arrival_time": "08:56:00", "departure_time": "08:56:00", "stop_id": "6065_01", "stop_sequence": 15}, {"arrival_time": "08:57:00", "departure_time": "08:57:00", "stop_id": "6066_01", "stop_sequence": 16}, {"arrival_time": "09:02:00", "departure_time": "09:02:00", "stop_id": "6067_01", "stop_sequence": 17}, {"arrival_time": "09:07:00", "departure_time": "09:07:00", "stop_id": "6068_01", "stop_sequence": 18}]
+	}
 }
 ```
 

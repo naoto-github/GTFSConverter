@@ -29,7 +29,7 @@ trips_file = zip_file.extract("trips.txt", TMP_DIR)
 agency_file = zip_file.extract("agency.txt", TMP_DIR)
 
 #--------------------------------------------------
-# バス停データの処理
+# バス停データ（GeoJSON）の処理
 
 stops_csv = pd.read_csv(stops_file)
 
@@ -116,7 +116,7 @@ for index, record in route_names_csv.iterrows():
 #--------------------------------------------------
 
 #--------------------------------------------------
-# 経路データの処理
+# 経路データ（GeoJSON）の処理
 
 trips_csv = pd.read_csv(stop_times_file)
 
@@ -171,11 +171,7 @@ for key in trip_dic.keys():
             "service_id": trip_name_dic[trip["trip_id"]]["service_id"],
             "route_long_name": route_name_dic[trip_name_dic[trip["trip_id"]]["route_id"]]["route_long_name"],
             "trip_headsign": trip_name_dic[trip["trip_id"]]["trip_headsign"],            
-            "stop_headsign": trip["stop_headsign"],
-            "arrival_time": trip["arrival_time"],
-            "departure_time": trip["departure_time"],
-            "stop_id": trip["stop_id"],
-            "stop_sequence": trip["stop_sequence"]
+            "stop_headsign": trip["stop_headsign"]
         }
     }
 
@@ -195,7 +191,47 @@ with open(filename, "w") as file:
 #--------------------------------------------------    
 
 #--------------------------------------------------
-# 時刻表の処理
+# 経路データ（JSON）の処理
+
+route_dic = {}
+
+for key in trip_dic.keys():
+
+    trip = trip_dic[key]
+
+    for arrival_time, departure_time, stop_id, stop_sequence in zip(trip["arrival_time"], trip["departure_time"], trip["stop_id"], trip["stop_sequence"]):
+
+        record = {
+            "arrival_time": arrival_time,
+            "departure_time": departure_time,
+            "stop_id": stop_id,
+            "stop_sequence": stop_sequence        
+        }
+        
+        if(trip["trip_id"] in route_dic):
+            route_dic[trip["trip_id"]]["records"].append(record)
+        else:
+        
+            route = {
+                "trip_id": trip["trip_id"],
+                "service_id": trip_name_dic[trip["trip_id"]]["service_id"],
+                "route_long_name": route_name_dic[trip_name_dic[trip["trip_id"]]["route_id"]]["route_long_name"],
+                "trip_headsign": trip_name_dic[trip["trip_id"]]["trip_headsign"],            
+                "stop_headsign": trip["stop_headsign"],
+                "records": [record]
+            }
+
+            route_dic[trip["trip_id"]] = route
+
+# ファイル出力
+filename =  JSON_DIR + "routes.json"
+with open(filename, "w") as file:
+    json.dump(route_dic, file, ensure_ascii=False)
+    print(f"[save as {filename}]")
+#--------------------------------------------------
+
+#--------------------------------------------------
+# 時刻表データ（JSON）の処理
 
 timetable_list = {}
 
@@ -203,7 +239,6 @@ for key in trip_dic.keys():
 
     trip = trip_dic[key]       
 
-    coordinates = []
     for stop_id, stop_sequence in zip(trip["stop_id"], trip["stop_sequence"]):
         stop_name = stop_dict[stop_id]["properties"]["stop_name"]
         stop_sequence = int(stop_sequence) - 1
